@@ -8,7 +8,7 @@
   import objectToGetParams from '../utils/objectToGetParams';
   export default {
     methods: {
-      facebookLink(url, { quote }) {
+      facebookLink(url) {
         window.open(
           `https://www.facebook.com/sharer/sharer.php` +
             objectToGetParams({
