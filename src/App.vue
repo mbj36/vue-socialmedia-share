@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <vue-social-share></vue-social-share>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueSocialShare from './components/VueSocialShare.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    VueSocialShare
   }
 }
 </script>
