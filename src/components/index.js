@@ -1,7 +1,9 @@
 import Facebook from './Facebook';
+import Twitter from './Twitter';
 
 const components = {
-  Facebook
+  Facebook,
+  Twitter
 };
 
 export default components;
