@@ -1,28 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-   <vue-social-share></vue-social-share>
+    <facebook url="https://google.com" quote="Hello World"></facebook>
   </div>
 </template>
 
 <script>
-import VueSocialShare from './components/VueSocialShare.vue'
+  import Facebook from './components/Facebook.vue';
 
-export default {
-  name: 'app',
-  components: {
-    VueSocialShare
-  }
-}
+  export default {
+    name: 'app',
+    components: {
+      Facebook
+    }
+  };
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+

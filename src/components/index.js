@@ -1,3 +1,7 @@
-import VueSocialShare from './VueSocialShare'
+import Facebook from './Facebook';
 
-export default VueSocialShare
+const components = {
+  Facebook
+};
+
+export default components;
