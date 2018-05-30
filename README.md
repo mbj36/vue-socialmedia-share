@@ -72,6 +72,12 @@ export default {
 };
 ```
 
+| Prop    | Data Type | Required | Description              |
+| ------- | --------- | -------- | ------------------------ |
+| `url`   | String    | true     | URL to share.            |
+| `scale` | String    |          | Size of icon(1-9)        |
+| `title` | String    |          | Title of the shared page |
+
 ## LinkedIn
 
 ```js
@@ -85,6 +91,11 @@ export default {
   }
 };
 ```
+
+| Prop    | Data Type | Required | Description       |
+| ------- | --------- | -------- | ----------------- |
+| `url`   | String    | true     | URL to share.     |
+| `scale` | String    |          | Size of icon(1-9) |
 
 ## Reddit
 
@@ -100,6 +111,12 @@ export default {
 };
 ```
 
+| Prop    | Data Type | Required | Description              |
+| ------- | --------- | -------- | ------------------------ |
+| `url`   | String    | true     | URL to share.            |
+| `scale` | String    |          | Size of icon(1-9)        |
+| `title` | String    |          | Title of the shared page |
+
 ## Telegram
 
 ```js
@@ -113,6 +130,12 @@ export default {
   }
 };
 ```
+
+| Prop    | Data Type | Required | Description              |
+| ------- | --------- | -------- | ------------------------ |
+| `url`   | String    | true     | URL to share.            |
+| `scale` | String    |          | Size of icon(1-9)        |
+| `title` | String    |          | Title of the shared page |
 
 ## WhatsApp
 
@@ -128,6 +151,12 @@ export default {
 };
 ```
 
+| Prop    | Data Type | Required | Description              |
+| ------- | --------- | -------- | ------------------------ |
+| `url`   | String    | true     | URL to share.            |
+| `scale` | String    |          | Size of icon(1-9)        |
+| `title` | String    |          | Title of the shared page |
+
 ## Pinterest
 
 ```js
@@ -141,6 +170,11 @@ export default {
   }
 };
 ```
+
+| Prop    | Data Type | Required | Description       |
+| ------- | --------- | -------- | ----------------- |
+| `url`   | String    | true     | URL to share.     |
+| `scale` | String    |          | Size of icon(1-9) |
 
 ## Google +
 
@@ -156,6 +190,11 @@ export default {
 };
 ```
 
+| Prop    | Data Type | Required | Description       |
+| ------- | --------- | -------- | ----------------- |
+| `url`   | String    | true     | URL to share.     |
+| `scale` | String    |          | Size of icon(1-9) |
+
 ## Email
 
 ```javascript
@@ -169,3 +208,10 @@ export default {
   }
 };
 ```
+
+| Prop      | Data Type | Required | Description       |
+| --------- | --------- | -------- | ----------------- |
+| `url`     | String    | true     | URL to share.     |
+| `scale`   | String    |          | Size of icon(1-9) |
+| `subject` | String    |          | Subject of email  |
+| `body`    | String    |          | Body of email     |
