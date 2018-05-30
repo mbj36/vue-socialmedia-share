@@ -1,6 +1,6 @@
 <template>
   <p>
-    <button @click="facebookLink(url)">Share</button>
+    <button @click="facebookLink(url)">Share on facebook</button>
   </p>
 </template>
 

@@ -1,17 +1,18 @@
 <template>
     <p>
-        <button @click="telegramLink(url)">Share on Telegram</button>
+        <button @click="telegramLink(url, {title})">Share on Telegram</button>
     </p>
 </template>
 
 <script>
+    import objectToGetParams from '../utils/objectToGetParams';
     export default {
       methods: {
-        telegramLink(url) {
+        telegramLink(url, { title }) {
           window.open(
-            'https://www.twitter.com/share' +
+            'https://telegram.me/share/' +
               objectToGetParams({
-                u: url,
+                url: url,
                 text: title
               }),
             '__blank'
@@ -21,6 +22,10 @@
       props: {
         url: {
           required: true,
+          type: String
+        },
+        title: {
+          required: false,
           type: String
         }
       }
