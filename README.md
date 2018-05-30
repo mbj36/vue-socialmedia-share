@@ -39,112 +39,112 @@ npm install vue-socialmedia-share
 
 ## Facebook
 
-```
-import { Facebook } from 'vue-socialmedia-share'
+```js
+import { Facebook } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Facebook
-    }
-}
+  components: {
+    Facebook
+  }
+};
 ```
 
 ## Twitter
 
-```
-import { Twitter } from 'vue-socialmedia-share'
+```js
+import { Twitter } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Twitter
-    }
-}
+  components: {
+    Twitter
+  }
+};
 ```
 
 ## Reddit
 
-```
-import { Reddit } from 'vue-socialmedia-share'
+```js
+import { Reddit } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Reddit
-    }
-}
+  components: {
+    Reddit
+  }
+};
 ```
 
 ## Telegram
 
-```
-import { Telegram } from 'vue-socialmedia-share'
+```js
+import { Telegram } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Telegram
-    }
-}
+  components: {
+    Telegram
+  }
+};
 ```
 
 ## WhatsApp
 
-```
-import { WhatsApp } from 'vue-socialmedia-share'
+```js
+import { WhatsApp } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        WhatsApp
-    }
-}
+  components: {
+    WhatsApp
+  }
+};
 ```
 
 ## Pinterest
 
-```
-import { Pinterest } from 'vue-socialmedia-share'
+```js
+import { Pinterest } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-       Pinterest
-    }
-}
+  components: {
+    Pinterest
+  }
+};
 ```
 
 ## Google +
 
-```
-import { Google } from 'vue-socialmedia-share'
+```js
+import { Google } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Google
-    }
-}
+  components: {
+    Google
+  }
+};
 ```
 
 ## Email
 
-```
-import { Email } from 'vue-socialmedia-share'
+```javascript
+import { Email } from 'vue-socialmedia-share';
 
 // usage in local component
 
 export default {
-    components:{
-        Email
-    }
-}
+  components: {
+    Email
+  }
+};
 ```
