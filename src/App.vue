@@ -5,6 +5,7 @@
     <linkedin url="https://google.com"></linkedin>
     <telegram url="https://github.com/mbj36"></telegram>
     <whats-app url="https://github.com/mbj36" title="Hello"></whats-app>
+    <pinterest url="https://github.com/mbj36"></pinterest>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
   import Linkedin from './components/LinkedIn';
   import Telegram from './components/Telegram';
   import WhatsApp from './components/Whatsapp';
+  import Pinterest from './components/Pinterest';
 
   export default {
     name: 'app',
@@ -22,7 +24,8 @@
       Twitter,
       Linkedin,
       Telegram,
-      WhatsApp
+      WhatsApp,
+      Pinterest
     }
   };
 </script>

@@ -3,7 +3,6 @@ import Twitter from './Twitter';
 import Telegram from './Telegram';
 import WhatsApp from './Whatsapp';
 import LinkedIn from './LinkedIn';
-import Quora from './Quora';
 import Pinterest from './Pinterest';
 
 const components = {
@@ -12,8 +11,7 @@ const components = {
   Pinterest,
   LinkedIn,
   WhatsApp,
-  Telegram,
-  Quora
+  Telegram
 };
 
 export default components;
