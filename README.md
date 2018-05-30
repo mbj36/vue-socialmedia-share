@@ -25,8 +25,28 @@
 
 ## Installation
 
-`yarn add vue-socialmedia-share`
+```
+yarn add vue-socialmedia-share
+```
 
 or
 
-`npm install vue-socialmedia-share`
+```
+npm install vue-socialmedia-share
+```
+
+# API
+
+## Facebook
+
+```
+import { Facebook } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Facebook
+    }
+}
+```
