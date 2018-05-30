@@ -11,15 +11,15 @@
 * No external script loading
 * Opens a new share tab
 * Share Button for:
-  * Facebook
-  * Twitter
-  * Reddit
-  * LinkedIn
-  * Google +
-  * WhatsApp
-  * Telegram
-  * Email
-  * Pinterest
+  * [Facebook](https://github.com/mbj36/vue-socialmedia-share#facebook)
+  * [Twitter](https://github.com/mbj36/vue-socialmedia-share#twitter)
+  * [Reddit](https://github.com/mbj36/vue-socialmedia-share#reddit)
+  * [LinkedIn](https://github.com/mbj36/vue-socialmedia-share#linkedin)
+  * [Google +](https://github.com/mbj36/vue-socialmedia-share#google-)
+  * [WhatsApp](https://github.com/mbj36/vue-socialmedia-share#whatsapp)
+  * [Telegram](https://github.com/mbj36/vue-socialmedia-share#telegram)
+  * [Email](https://github.com/mbj36/vue-socialmedia-share#email)
+  * [Pinterest](https://github.com/mbj36/vue-socialmedia-share#pinterest)
 * Social Media icons includes in the library
 * Change the size of icons
 
@@ -61,6 +61,20 @@ import { Twitter } from 'vue-socialmedia-share';
 export default {
   components: {
     Twitter
+  }
+};
+```
+
+## LinkedIn
+
+```js
+import { Linkedin } from 'vue-socialmedia-share';
+
+// usage in local component
+
+export default {
+  components: {
+    Linkedin
   }
 };
 ```
