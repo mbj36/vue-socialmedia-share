@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <facebook url="https://google.com" scale="3"></facebook>
-    <twitter url="https://github.com/mbj36" title="Check me on Github" scale="3"></twitter>
-    <linkedin url="https://google.com" scale="3"></linkedin>
-    <telegram url="https://github.com/mbj36" scale="3"></telegram>
-    <whats-app url="https://github.com/mbj36" title="Hello" scale="3"></whats-app>
-    <pinterest url="https://github.com/mbj36" scale="3"></pinterest>
-    <reddit url="https://github.com/mbj36" scale="3" title="My Github"></reddit>
-    <google url="https://github.com/mbj36" scale="3"></google>
-    <email url="https://github.com/mbj36" subject="Hello" scale="3"></email>
+    <facebook :url="url" scale="3"></facebook>
+    <twitter :url="url" title="Check me on Github" scale="3"></twitter>
+    <linkedin :url="url" scale="3"></linkedin>
+    <telegram :url="url" scale="3"></telegram>
+    <whats-app :url="url" title="Hello" scale="3"></whats-app>
+    <pinterest :url="url" scale="3"></pinterest>
+    <reddit :url="url" scale="3" title="My Github"></reddit>
+    <google :url="url" scale="3"></google>
+    <email :url="url" subject="Hello" scale="3"></email>
   </div>
 </template>
 
@@ -35,6 +35,11 @@
       Reddit,
       Google,
       Email
+    },
+    data() {
+      return {
+        url: 'https://github.com/mbj36'
+      };
     }
   };
 </script>
