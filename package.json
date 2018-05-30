@@ -1,6 +1,6 @@
 {
   "name": "vue-socialmedia-share",
-  "version": "0.8.0",
+  "version": "0.13.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -49,5 +49,6 @@
       "autoprefixer": {}
     }
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "files": ["dist"]
 }

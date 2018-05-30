@@ -1,9 +1,9 @@
-export * from './Facebook';
-export * from './Twitter';
-export * from './Telegram';
-export * from './Whatsapp';
-export * from './LinkedIn';
-export * from './Pinterest';
-export * from './Reddit';
-export * from './Email';
-export * from './Google';
+export { default as Facebook } from './Facebook';
+export { default as Twitter } from './Twitter';
+export { default as Telegram } from './Telegram';
+export { default as WhatsApp } from './Whatsapp';
+export { default as Linkedin } from './LinkedIn';
+export { default as Pinterest } from './Pinterest';
+export { default as Reddit } from './Reddit';
+export { default as Email } from './Email';
+export { default as Google } from './Google';
