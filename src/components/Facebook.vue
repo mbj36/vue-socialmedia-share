@@ -1,6 +1,6 @@
 <template>
   <span @click="facebookLink(url)">
-    <icon name="brands/facebook" :scale="scale"></icon>
+    <icon name="brands/facebook" color="#3B5998" :scale="scale"></icon>
   </span>
 </template>
 

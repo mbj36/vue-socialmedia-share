@@ -1,6 +1,6 @@
 <template>
   <span @click="whatsappLink(url, title)">
-    <icon name="brands/whatsapp-square" :scale="scale"></icon>
+    <icon name="brands/whatsapp-square" color="#34af23" :scale="scale"></icon>
   </span>
 </template>
 

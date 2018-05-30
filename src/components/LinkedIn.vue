@@ -1,6 +1,6 @@
 <template>
   <span @click="linkedinLink(url)">
-    <icon name="brands/linkedin-in" :scale="scale"></icon>
+    <icon name="brands/linkedin-in" color="#0077B5" :scale="scale"></icon>
   </span>
 </template>
 

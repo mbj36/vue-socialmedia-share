@@ -1,6 +1,6 @@
 <template>
   <span @click="pinterestLink(url)">
-    <icon name="brands/pinterest-square" :scale="scale"></icon>
+    <icon name="brands/pinterest-square" color="#BD081C" :scale="scale"></icon>
   </span>
 </template>
 

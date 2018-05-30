@@ -1,6 +1,6 @@
 <template>
   <span @click="telegramLink(url, {title})">
-    <icon name="brands/telegram-plane" :scale="scale"></icon>
+    <icon name="brands/telegram-plane" color="#0088cc" :scale="scale"></icon>
   </span>
 </template>
 
