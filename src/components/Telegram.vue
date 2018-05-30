@@ -9,6 +9,7 @@
   import 'vue-awesome/icons/brands/telegram-plane';
   import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'telegram',
     methods: {
       telegramLink(url, { title }) {
         window.open(

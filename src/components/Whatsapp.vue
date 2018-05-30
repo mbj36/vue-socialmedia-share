@@ -9,6 +9,7 @@
   import 'vue-awesome/icons/brands/whatsapp-square';
   import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'whatsapp',
     methods: {
       whatsappLink(url, separator, title) {
         window.open(

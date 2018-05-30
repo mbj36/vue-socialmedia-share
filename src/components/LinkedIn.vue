@@ -9,6 +9,7 @@
   import 'vue-awesome/icons/brands/linkedin-in';
   import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'Linkedin',
     components: {
       Icon
     },

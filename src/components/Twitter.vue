@@ -9,6 +9,7 @@
   import 'vue-awesome/icons/brands/twitter-square';
   import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'twitter',
     methods: {
       twitterLink(url, { title }) {
         window.open(

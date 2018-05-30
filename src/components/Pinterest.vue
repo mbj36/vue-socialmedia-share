@@ -10,6 +10,7 @@
   import 'vue-awesome/icons/brands/pinterest-square';
   import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'pinterest',
     methods: {
       pinterestLink(url) {
         window.open(
