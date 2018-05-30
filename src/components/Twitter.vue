@@ -1,6 +1,6 @@
 <template>
   <span @click="twitterLink(url, {title})">
-    <icon name="brands/twitter-square" scale="4"></icon>
+    <icon name="brands/twitter-square" :scale="scale"></icon>
   </span>
 </template>
 
@@ -30,6 +30,10 @@
         type: String
       },
       title: {
+        required: false,
+        type: String
+      },
+      scale: {
         required: false,
         type: String
       }

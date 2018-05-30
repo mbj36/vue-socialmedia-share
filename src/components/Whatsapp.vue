@@ -1,6 +1,6 @@
 <template>
   <span @click="whatsappLink(url, title)">
-    <icon name="brands/whatsapp-square" scale="4"></icon>
+    <icon name="brands/whatsapp-square" :scale="scale"></icon>
   </span>
 </template>
 
@@ -10,7 +10,7 @@
   import Icon from 'vue-awesome/components/Icon';
   export default {
     methods: {
-      whatsappLink(url, seperator, title) {
+      whatsappLink(url, separator, title) {
         window.open(
           'https://api.whatsapp.com/send' +
             objectToGetParams({
@@ -31,11 +31,15 @@
       title: {
         required: false,
         type: String
+      },
+      scale: {
+        required: false,
+        type: String
       }
     },
     data() {
       return {
-        seperator: ' '
+        separator: ''
       };
     }
   };

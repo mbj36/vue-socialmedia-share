@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <facebook url="https://google.com"></facebook>
-    <twitter url="https://github.com/mbj36" title="Check me on Github"></twitter>
-    <linkedin url="https://google.com"></linkedin>
-    <telegram url="https://github.com/mbj36"></telegram>
-    <whats-app url="https://github.com/mbj36" title="Hello"></whats-app>
-    <pinterest url="https://github.com/mbj36"></pinterest>
+    <facebook url="https://google.com" scale="4"></facebook>
+    <twitter url="https://github.com/mbj36" title="Check me on Github" scale="4"></twitter>
+    <linkedin url="https://google.com" scale="4"></linkedin>
+    <telegram url="https://github.com/mbj36" scale="4"></telegram>
+    <whats-app url="https://github.com/mbj36" title="Hello" scale="4"></whats-app>
+    <pinterest url="https://github.com/mbj36" scale="4"></pinterest>
   </div>
 </template>
 

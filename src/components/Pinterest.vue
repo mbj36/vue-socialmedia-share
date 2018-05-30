@@ -1,6 +1,6 @@
 <template>
   <span @click="pinterestLink(url)">
-    <icon name="brands/pinterest-square" scale="4"></icon>
+    <icon name="brands/pinterest-square" :scale="scale"></icon>
   </span>
 </template>
 
@@ -24,6 +24,10 @@
     props: {
       url: {
         required: true,
+        type: String
+      },
+      scale: {
+        required: false,
         type: String
       }
     },
