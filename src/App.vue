@@ -30,4 +30,10 @@
   };
 </script>
 
+<style>
+  #app > span {
+    margin: 1em;
+  }
+</style>
+
 

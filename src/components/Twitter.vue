@@ -1,11 +1,13 @@
 <template>
-  <p>
-    <button @click="twitterLink(url, {title})">Share on twitter</button>
-  </p>
+  <span @click="twitterLink(url, {title})">
+    <icon name="brands/twitter-square" scale="4"></icon>
+  </span>
 </template>
 
 <script>
   import objectToGetParams from '../utils/objectToGetParams';
+  import 'vue-awesome/icons/brands/twitter-square';
+  import Icon from 'vue-awesome/components/Icon';
   export default {
     methods: {
       twitterLink(url, { title }) {
@@ -18,6 +20,9 @@
           '__blank'
         );
       }
+    },
+    components: {
+      Icon
     },
     props: {
       url: {
