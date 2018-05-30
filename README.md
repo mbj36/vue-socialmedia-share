@@ -51,6 +51,13 @@ export default {
 };
 ```
 
+#### Props
+
+| Prop    | Data Type | Required | Description        |
+| ------- | --------- | -------- | ------------------ |
+| `url`   | String    | true     | URL to share.      |
+| `scale` | String    |          | Size of icon (1-9) |
+
 ## Twitter
 
 ```js
