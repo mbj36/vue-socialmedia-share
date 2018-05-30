@@ -1,6 +1,6 @@
 {
   "name": "vue-socialmedia-share",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,6 +8,16 @@
     "build-bundle":
       "vue-cli-service build --target lib --name vue-socialmedia-share ./src/components/index.js",
     "lint": "vue-cli-service lint"
+  },
+  "author": {
+    "name": "Mohit Bajoria",
+    "email": "mohitbajo36@gmail.com",
+    "url": "https://mbj36.xyz"
+  },
+  "keywords": ["vuejs", "social-media", "share", "facebook share", "vue-share"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbj36/vue-socialmedia-share.git"
   },
   "dependencies": {
     "vue": "^2.5.16",
