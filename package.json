@@ -5,11 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle":"vue-cli-service build --target lib --name vue-social-share ./src/components/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name vue-social-share ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-awesome": "^3.0.0"
   },
   "main": "./dist/vue-social-share.common.js",
   "devDependencies": {

@@ -1,29 +1,34 @@
 <template>
-    <p>
-        <button @click="linkedinLink(url)">Share on linkedin</button>
-    </p>
+  <span @click="linkedinLink(url)">
+    <icon name="brands/linkedin-in" scale="4"></icon>
+  </span>
 </template>
 
 <script>
-    import objectToGetParams from '../utils/objectToGetParams';
-    export default {
-      methods: {
-        linkedinLink(url) {
-          window.open(
-            'https://linkedin.com/shareArticle' +
-              objectToGetParams({
-                mini: true,
-                url: url
-              }),
-            '__blank'
-          );
-        }
-      },
-      props: {
-        url: {
-          required: true,
-          type: String
-        }
+  import objectToGetParams from '../utils/objectToGetParams';
+  import 'vue-awesome/icons/brands/linkedin-in';
+  import Icon from 'vue-awesome/components/Icon';
+  export default {
+    components: {
+      Icon
+    },
+    methods: {
+      linkedinLink(url) {
+        window.open(
+          'https://linkedin.com/shareArticle' +
+            objectToGetParams({
+              mini: true,
+              url: url
+            }),
+          '__blank'
+        );
       }
-    };
+    },
+    props: {
+      url: {
+        required: true,
+        type: String
+      }
+    }
+  };
 </script>

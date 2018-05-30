@@ -1,12 +1,18 @@
 <template>
-  <p>
-    <button @click="facebookLink(url)">Share on facebook</button>
-  </p>
+  <span @click="facebookLink(url)">
+    <icon name="brands/facebook" scale="4"></icon>
+  </span>
 </template>
 
 <script>
   import objectToGetParams from '../utils/objectToGetParams';
+  import 'vue-awesome/icons/brands/facebook';
+  import Icon from 'vue-awesome/components/Icon';
   export default {
+    name: 'facebook',
+    components: {
+      Icon
+    },
     methods: {
       facebookLink(url) {
         window.open(
