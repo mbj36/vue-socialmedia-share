@@ -50,3 +50,101 @@ export default {
     }
 }
 ```
+
+## Twitter
+
+```
+import { Twitter } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Twitter
+    }
+}
+```
+
+## Reddit
+
+```
+import { Reddit } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Reddit
+    }
+}
+```
+
+## Telegram
+
+```
+import { Telegram } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Telegram
+    }
+}
+```
+
+## WhatsApp
+
+```
+import { WhatsApp } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        WhatsApp
+    }
+}
+```
+
+## Pinterest
+
+```
+import { Pinterest } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+       Pinterest
+    }
+}
+```
+
+## Google +
+
+```
+import { Google } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Google
+    }
+}
+```
+
+## Email
+
+```
+import { Email } from 'vue-socialmedia-share'
+
+// usage in local component
+
+export default {
+    components:{
+        Email
+    }
+}
+```
