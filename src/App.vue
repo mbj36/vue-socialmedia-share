@@ -6,6 +6,7 @@
     <telegram url="https://github.com/mbj36" scale="4"></telegram>
     <whats-app url="https://github.com/mbj36" title="Hello" scale="4"></whats-app>
     <pinterest url="https://github.com/mbj36" scale="4"></pinterest>
+    <reddit url="https://github.com/mbj36" scale="4" title="My Github"></reddit>
   </div>
 </template>
 
@@ -16,6 +17,7 @@
   import Telegram from './components/Telegram';
   import WhatsApp from './components/Whatsapp';
   import Pinterest from './components/Pinterest';
+  import Reddit from './components/Reddit';
 
   export default {
     name: 'app',
@@ -25,7 +27,8 @@
       Linkedin,
       Telegram,
       WhatsApp,
-      Pinterest
+      Pinterest,
+      Reddit
     }
   };
 </script>
