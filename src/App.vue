@@ -51,9 +51,6 @@
   #app > span {
     margin: 1em;
   }
-  .fa-icon {
-    fill: currentColor !important;
-  }
 </style>
 
 
