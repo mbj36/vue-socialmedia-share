@@ -1,9 +1,21 @@
-export { default as Facebook } from './Facebook';
-export { default as Twitter } from './Twitter';
-export { default as Telegram } from './Telegram';
-export { default as WhatsApp } from './Whatsapp';
-export { default as Linkedin } from './LinkedIn';
-export { default as Pinterest } from './Pinterest';
-export { default as Reddit } from './Reddit';
-export { default as Email } from './Email';
-export { default as Google } from './Google';
+import Facebook from '../components/Facebook';
+import Twitter from '../components/Twitter';
+import Telegram from '../components/Telegram';
+import WhatsApp from '../components/Whatsapp';
+import Pinterest from '../components/Pinterest';
+import Google from '../components/Google';
+import Email from '../components/Email';
+import Linkedin from '../components/LinkedIn';
+import Reddit from '../components/Reddit';
+
+export default {
+  Facebook,
+  Twitter,
+  Reddit,
+  Pinterest,
+  Linkedin,
+  Email,
+  Google,
+  Telegram,
+  WhatsApp
+};
