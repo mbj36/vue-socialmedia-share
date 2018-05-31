@@ -8,8 +8,6 @@ import Email from '../components/Email';
 import Linkedin from '../components/LinkedIn';
 import Reddit from '../components/Reddit';
 
-import '../../assets/style.css';
-
 export default {
   Facebook,
   Twitter,
