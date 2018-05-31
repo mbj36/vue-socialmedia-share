@@ -6,6 +6,10 @@
 
 ### vue-socialmedia-share is a vue component for sharing links to social networks
 
+## Demo
+
+[![Edit vue-socialmedia-share](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/kk0mqj11lv)
+
 ## Features
 
 * No external script loading
@@ -231,3 +235,5 @@ export default {
 ## License
 
 [MIT](https://github.com/mbj36/vue-socialmedia-share/blob/master/LICENSE)
+
+Like it ? <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png?v8" height="20px" /> it
