@@ -1,6 +1,6 @@
 {
   "name": "vue-socialmedia-share",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -33,6 +33,7 @@
   "babel": {
     "presets": ["@vue/app"]
   },
+  "license": "MIT",
   "eslintConfig": {
     "root": true,
     "env": {
